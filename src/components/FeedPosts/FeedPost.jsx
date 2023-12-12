@@ -6,7 +6,7 @@ import useGetUserProfileById from "../../hooks/useGetUserProfileById";
 const FeedPost = ({ post }) => {
 	const { userProfile } = useGetUserProfileById(post.createdBy);
 
-	return (
+	return  (
 		<>
 			<PostHeader post={post} creatorProfile={userProfile} />
 			<Box my={2} borderRadius={4} overflow={"hidden"}>
