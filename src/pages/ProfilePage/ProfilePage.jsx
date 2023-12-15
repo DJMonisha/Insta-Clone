@@ -16,6 +16,7 @@ const ProfilePage = () => {
 				borderColor={"whiteAlpha.300"}
 				direction={"column"}
 			>
+				
 				<ProfileTabs />
 				<ProfilePosts />
 			</Flex>
